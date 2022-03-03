@@ -1,5 +1,18 @@
+body   {
+  display:flex;
+  {
 header {
   color:red;
-  
 }
+main  {
+  display:flex;
+    }
+aside{
+  flex:1
+    }
+    article{
+      flex:3
+    }
+
+
 
