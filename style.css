@@ -1,21 +1,5 @@
-body  {
-  display:flex;
-  flex-direction:row;
-}
-.header  img{
-  position:absolute;
-  left:60px;
-  top:15px;
-  width:100px;
-}
-main {
-  display:flex;
-  flex:auto;
-}
-aside{
-  flex:1
-}
-article{
-  flex:3
+header {
+  color:blue;
+  
 }
 
