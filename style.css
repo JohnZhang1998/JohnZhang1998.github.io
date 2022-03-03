@@ -5,7 +5,7 @@ header {
 main  {
   display:flex;
   flex-direction:row;
-  flex:  auto;
+
     }
 aside{
   flex:1;
