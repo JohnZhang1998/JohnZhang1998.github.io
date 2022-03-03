@@ -8,9 +8,11 @@ main  {
 
     }
 aside{
+
   flex:1;
     }
     article{
+      flex-direction:row
       flex:3;
     }
 
