@@ -2,6 +2,9 @@
 header {
   color:red;
 }
+ h {
+  color:red
+}
 main  {
   display:flex;
   flex-direction:row;
