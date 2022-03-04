@@ -4,6 +4,7 @@
   
 <head>
     <meta charset="utf-8">
+   <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
     <link href="style.css" rel="stylesheet">
   <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
     <script src="thumbnail.js"></script>
@@ -65,6 +66,14 @@
   <p>青城山（Mount Qingcheng），世界文化遗产青城山-都江堰的主体景区、全国重点文物保护单位、国家重点风景名胜区、国家AAAAA级旅游景区、全真龙门派圣地，十大洞天之一，中国四大道教名山之一，五大仙山之一，成都十景之一。</p>
   <p>青城山位于四川省成都市都江堰市西南，东距成都市区68千米，处于都江堰水利工程西南10千米处。景区面积200平方千米，最高峰老君阁海拔1260米，青城山分为前山和后山，群峰环绕起伏、林木葱茏幽翠，享有“青城天下幽”的美誉。</p>
   <p> 全山林木青翠，四季常青，诸峰环峙，状若城廓，故名青城山。丹梯千级，曲径通幽，以幽洁取胜。景区内外，天师洞和圆明宫幽静是青城山的一大特色。</p>
+  <div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      serverURL: 'https://your-domain.vercel.app',
+    });
+  </script>
+  
    </article>
   
     </main>
